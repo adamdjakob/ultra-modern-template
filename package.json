@@ -1,0 +1,37 @@
+{
+  "name": "ultra-modern-template",
+  "version": "1.0.0",
+  "description": "A premium, feature-rich HTML template for modern businesses and creative agencies",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "@fortawesome/fontawesome-free": "^6.0.0",
+    "aos": "^2.3.4",
+    "swiper": "^8.4.5",
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "html-validator-cli": "^7.0.1",
+    "stylelint": "^15.11.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "stylelint-config-standard": "^35.0.0"
+  },
+  "scripts": {
+    "validate": "node_modules/.bin/html-validator && node_modules/.bin/stylelint \"assets/css/*.css\" && node_modules/.bin/eslint \"assets/js/*.js\"",
+    "format": "node_modules/.bin/prettier --write \"**/*.{html,css,js}\"",
+    "test": "npm run validate"
+  },
+  "author": "Brain Cascai",
+  "license": "Commercial",
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "template",
+    "modern",
+    "responsive",
+    "business",
+    "creative"
+  ]
+}

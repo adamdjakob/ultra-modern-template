@@ -1,0 +1,44 @@
+{
+  "blog_posts": [
+    {
+      "id": 1,
+      "title": "Web Design Trends 2025: What's Next in Digital Design",
+      "category": "Design",
+      "date": "2025-01-15",
+      "author": "Sarah Johnson",
+      "image": "blog-1.jpg",
+      "excerpt": "Discover the latest web design trends that will dominate 2025, from AI-driven interfaces to immersive experiences.",
+      "content": "The web design landscape is constantly evolving, and 2025 brings exciting new trends. From AI-powered personalization to immersive 3D experiences, we're seeing a shift towards more intelligent and engaging digital experiences. Key trends include:\n\n1. AI-Driven Design\n2. Immersive 3D Elements\n3. Advanced Micro-interactions\n4. Voice User Interfaces\n5. Sustainable Design Practices"
+    },
+    {
+      "id": 2,
+      "title": "The Ultimate Guide to Mobile-First Development",
+      "category": "Development",
+      "date": "2025-01-10",
+      "author": "Mike Chen",
+      "image": "blog-2.jpg",
+      "excerpt": "Learn why mobile-first development is crucial and how to implement it effectively in your projects.",
+      "content": "Mobile-first development is no longer optional - it's essential. With mobile devices accounting for over 60% of web traffic, designing for mobile first ensures better user experience and performance. This guide covers:\n\n1. Mobile-First Strategy\n2. Responsive Design Principles\n3. Performance Optimization\n4. Touch-friendly Interfaces\n5. Testing Methodologies"
+    },
+    {
+      "id": 3,
+      "title": "Mastering Modern CSS Techniques",
+      "category": "CSS",
+      "date": "2025-01-05",
+      "author": "Emma Davis",
+      "image": "blog-3.jpg",
+      "excerpt": "Explore advanced CSS techniques that will take your web development skills to the next level.",
+      "content": "Modern CSS has evolved significantly, offering powerful features that make complex layouts and animations easier than ever. This article explores:\n\n1. CSS Grid Mastery\n2. Custom Properties\n3. CSS Animations\n4. Container Queries\n5. Modern CSS Functions"
+    },
+    {
+      "id": 4,
+      "title": "UX Best Practices for 2025",
+      "category": "UX Design",
+      "date": "2025-01-01",
+      "author": "Alex Turner",
+      "image": "blog-4.jpg",
+      "excerpt": "Stay ahead of the curve with these essential UX best practices for modern web applications.",
+      "content": "User experience continues to be a crucial factor in web design. These best practices will help you create more engaging and user-friendly websites:\n\n1. Accessibility First\n2. Performance Optimization\n3. Intuitive Navigation\n4. Emotional Design\n5. User Research Methods"
+    }
+  ]
+}

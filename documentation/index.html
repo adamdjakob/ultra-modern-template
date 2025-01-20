@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultra Modern - Documentation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      :root {
+        --primary-color: #6b46c1;
+        --secondary-color: #718096;
+        --dark-color: #2d3748;
+        --light-color: #f7fafc;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        line-height: 1.6;
+        color: var(--dark-color);
+      }
+
+      .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 280px;
+        background: var(--light-color);
+        padding: 2rem;
+        overflow-y: auto;
+      }
+
+      .content {
+        margin-left: 280px;
+        padding: 2rem;
+        max-width: 1200px;
+      }
+
+      .nav-link {
+        color: var(--dark-color);
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+      }
+
+      .nav-link:hover,
+      .nav-link.active {
+        background: var(--primary-color);
+        color: white;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: var(--primary-color);
+        margin-top: 2rem;
+      }
+
+      code {
+        background: var(--light-color);
+        padding: 0.2rem 0.4rem;
+        border-radius: 0.3rem;
+      }
+
+      .card {
+        border: none;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 2rem;
+      }
+
+      .card-header {
+        background: var(--primary-color);
+        color: white;
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 0.5rem;
+        margin: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <h4 class="mb-4">Documentation</h4>
+      <nav class="nav flex-column">
+        <a class="nav-link active" href="#quick-start">Quick Start</a>
+        <a class="nav-link" href="#getting-started">Getting Started</a>
+        <a class="nav-link" href="#file-structure">File Structure</a>
+        <a class="nav-link" href="#customization">Customization</a>
+        <a class="nav-link" href="#components">Components</a>
+        <a class="nav-link" href="#javascript">JavaScript</a>
+        <a class="nav-link" href="#troubleshooting">Troubleshooting FAQ</a>
+        <a class="nav-link" href="#credits">Credits</a>
+      </nav>
+    </div>
+
+    <div class="content">
+      <h1>Ultra Modern Documentation</h1>
+      <p class="lead">
+        A comprehensive guide to using and customizing the Ultra Modern HTML template.
+      </p>
+
+      <section id="quick-start" class="mb-5">
+        <h2>⚡ Quick Start (5 Minutes)</h2>
+        <div class="card">
+          <div class="card-body">
+            <ol>
+              <li class="mb-3">
+                <strong>Download & Extract</strong>
+                <p>Extract the template files to your project directory</p>
+              </li>
+              <li class="mb-3">
+                <strong>Open index.html</strong>
+                <p>Double click index.html or serve it through a local server</p>
+                <div class="bg-light p-3 rounded">
+                  <code>python -m http.server 8000</code><br>
+                  <code>npx serve .</code>
+                </div>
+              </li>
+              <li class="mb-3">
+                <strong>Quick Customization</strong>
+                <p>Edit these files for basic changes:</p>
+                <ul>
+                  <li><code>css/style.css</code> - Colors and styles</li>
+                  <li><code>index.html</code> - Content and structure</li>
+                  <li><code>js/main.js</code> - Interactions and effects</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="getting-started">
+        <h2>Getting Started</h2>
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Quick Start Guide</h5>
+          </div>
+          <div class="card-body">
+            <h5>1. File Setup</h5>
+            <p>Extract the downloaded zip file to your desired location.</p>
+
+            <h5>2. Dependencies</h5>
+            <p>The template includes all necessary dependencies:</p>
+            <ul>
+              <li>Bootstrap 5.3.0</li>
+              <li>Font Awesome 6.0.0</li>
+              <li>AOS (Animate On Scroll)</li>
+              <li>Swiper.js</li>
+              <li>Particle.js</li>
+            </ul>
+
+            <h5>3. Running the Template</h5>
+            <p>Open <code>index.html</code> in your web browser to view the template.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="file-structure">
+        <h2>File Structure</h2>
+        <div class="card">
+          <div class="card-body">
+            <pre><code>
+modern-html-template/
+├── index.html
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   ├── vendor/
+│   │   ├── bootstrap/
+│   │   ├── font-awesome/
+│   │   └── other libraries
+│   └── images/
+├── documentation/
+│   └── index.html
+└── README.md
+                    </code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="customization">
+        <h2>Customization</h2>
+
+        <div class="card mb-4">
+          <div class="card-header">
+            <h5 class="mb-0">Common Customization Examples</h5>
+          </div>
+          <div class="card-body">
+            <h6>1. Changing the Hero Background Video</h6>
+            <pre><code>
+<!-- In index.html -->
+&lt;div class="hero-video-wrapper"&gt;
+  &lt;video autoplay muted loop id="heroVideo"&gt;
+    &lt;source src="your-video.mp4" type="video/mp4"&gt;
+  &lt;/video&gt;
+&lt;/div&gt;
+            </code></pre>
+
+            <h6>2. Modifying the Particle Effect</h6>
+            <pre><code>
+// In js/main.js
+particlesJS('particles-js', {
+  particles: {
+    number: {
+      value: 80, // Change number of particles
+      density: {
+        enable: true,
+        value_area: 800
+      }
+    },
+    color: {
+      value: '#ffffff' // Change particle color
+    }
+  }
+});
+            </code></pre>
+
+            <h6>3. Adding Custom Animations</h6>
+            <pre><code>
+/* In css/style.css */
+.custom-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+            </code></pre>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Colors</h5>
+          </div>
+          <div class="card-body">
+            <p>The template uses CSS variables for easy color customization:</p>
+            <pre><code>
+:root {
+    --primary-color: #6b46c1;
+    --secondary-color: #718096;
+    --dark-color: #2d3748;
+    --light-color: #f7fafc;
+}
+                    </code></pre>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Typography</h5>
+          </div>
+          <div class="card-body">
+            <p>The template uses Google Fonts:</p>
+            <ul>
+              <li>Primary Font: 'Inter', sans-serif</li>
+              <li>Heading Font: 'Poppins', sans-serif</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="components">
+        <h2>Components</h2>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Hero Section</h5>
+          </div>
+          <div class="card-body">
+            <p>Features:</p>
+            <ul>
+              <li>Full-screen video background</li>
+              <li>Particle.js integration</li>
+              <li>Animated scroll indicators</li>
+              <li>Gradient text overlays</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Portfolio Gallery</h5>
+          </div>
+          <div class="card-body">
+            <p>Features:</p>
+            <ul>
+              <li>Filterable items</li>
+              <li>Modern grid layout</li>
+              <li>Project modal</li>
+              <li>Category filtering</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Add more component documentation -->
+      </section>
+
+      <section id="javascript">
+        <h2>JavaScript</h2>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Initialization</h5>
+          </div>
+          <div class="card-body">
+            <p>The template initializes various features in <code>main.js</code>:</p>
+            <ul>
+              <li>AOS animations</li>
+              <li>Particle.js configuration</li>
+              <li>Portfolio filtering</li>
+              <li>Testimonial slider</li>
+              <li>Statistics counter</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="troubleshooting" class="mb-5">
+        <h2>Troubleshooting FAQ</h2>
+        
+        <div class="accordion" id="faqAccordion">
+          <!-- Video Background Issues -->
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  Video Background Not Playing
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" data-bs-parent="#faqAccordion">
+              <div class="card-body">
+                <p><strong>Common causes and solutions:</strong></p>
+                <ul>
+                  <li>Check if video format is supported (use MP4)</li>
+                  <li>Ensure autoplay, muted, and loop attributes are present</li>
+                  <li>Try converting video to a different codec (H.264)</li>
+                </ul>
+                <pre><code>
+&lt;video autoplay muted loop playsinline&gt;
+  &lt;source src="video.mp4" type="video/mp4"&gt;
+  &lt;source src="video.webm" type="video/webm"&gt;
+&lt;/video&gt;
+                </code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile Responsiveness -->
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                  Mobile Responsiveness Issues
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#faqAccordion">
+              <div class="card-body">
+                <p><strong>Common fixes:</strong></p>
+                <ul>
+                  <li>Ensure viewport meta tag is present</li>
+                  <li>Check Bootstrap breakpoint classes</li>
+                  <li>Verify media queries</li>
+                </ul>
+                <pre><code>
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+                </code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Animation Issues -->
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                  Animations Not Working
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#faqAccordion">
+              <div class="card-body">
+                <p><strong>Troubleshooting steps:</strong></p>
+                <ul>
+                  <li>Check if AOS is properly initialized</li>
+                  <li>Verify data-aos attributes</li>
+                  <li>Check for JavaScript console errors</li>
+                </ul>
+                <pre><code>
+// Initialize AOS
+document.addEventListener('DOMContentLoaded', function() {
+  AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 100
+  });
+});
+                </code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="credits">
+        <h2>Credits</h2>
+
+        <div class="card">
+          <div class="card-body">
+            <ul>
+              <li>Images: <a href="https://unsplash.com" target="_blank">Unsplash</a></li>
+              <li>Icons: <a href="https://fontawesome.com" target="_blank">Font Awesome</a></li>
+              <li>Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

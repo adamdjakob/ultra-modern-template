@@ -1,0 +1,106 @@
+{
+  "portfolio_items": [
+    {
+      "id": 1,
+      "title": "Artisan - Creative Agency Website",
+      "category": "Web Design",
+      "image": "portfolio-1.jpg",
+      "client": "Artisan Creative",
+      "date": "2025",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "React"],
+      "description": "A modern website for a creative agency featuring dynamic animations, portfolio showcase, and interactive elements.",
+      "features": [
+        "Responsive design",
+        "Portfolio grid",
+        "Case studies",
+        "Team profiles",
+        "Contact form"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "EcoShop - E-commerce Platform",
+      "category": "E-commerce",
+      "image": "portfolio-2.jpg",
+      "client": "EcoShop Inc.",
+      "date": "2024",
+      "technologies": ["Shopify", "Liquid", "JavaScript", "SCSS"],
+      "description": "Custom e-commerce platform for sustainable products with advanced filtering and checkout process.",
+      "features": [
+        "Product catalog",
+        "Shopping cart",
+        "Secure checkout",
+        "User accounts",
+        "Order tracking"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "FitLife - Fitness App",
+      "category": "Mobile App",
+      "image": "portfolio-3.jpg",
+      "client": "FitLife Global",
+      "date": "2024",
+      "technologies": ["React Native", "Node.js", "MongoDB"],
+      "description": "Mobile fitness application with workout tracking, nutrition planning, and social features.",
+      "features": [
+        "Workout plans",
+        "Progress tracking",
+        "Social sharing",
+        "Nutrition log",
+        "Achievement system"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "TechCorp - Corporate Website",
+      "category": "Corporate",
+      "image": "portfolio-4.jpg",
+      "client": "TechCorp Solutions",
+      "date": "2024",
+      "technologies": ["WordPress", "PHP", "MySQL", "jQuery"],
+      "description": "Professional corporate website with service pages, case studies, and career opportunities.",
+      "features": [
+        "Service showcase",
+        "Career portal",
+        "News section",
+        "Contact system",
+        "Resource center"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "FoodieApp - Restaurant Platform",
+      "category": "Web App",
+      "image": "portfolio-5.jpg",
+      "client": "FoodieApp Inc.",
+      "date": "2024",
+      "technologies": ["Vue.js", "Firebase", "Stripe"],
+      "description": "Restaurant discovery and ordering platform with real-time updates and payment integration.",
+      "features": [
+        "Restaurant listings",
+        "Online ordering",
+        "Payment system",
+        "Review system",
+        "Order tracking"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "ArtGallery - Virtual Exhibition",
+      "category": "Art & Culture",
+      "image": "portfolio-6.jpg",
+      "client": "Modern Art Museum",
+      "date": "2024",
+      "technologies": ["Three.js", "WebGL", "React"],
+      "description": "Virtual art gallery with 3D exhibition spaces and interactive artwork displays.",
+      "features": [
+        "3D gallery",
+        "Virtual tours",
+        "Artist profiles",
+        "Artwork details",
+        "Online booking"
+      ]
+    }
+  ]
+}

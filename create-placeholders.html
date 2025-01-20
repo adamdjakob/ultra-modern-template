@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Placeholder Image Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+      .placeholder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(45deg, #6b46c1, #805ad5);
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      .portfolio {
+        width: 800px;
+        height: 600px;
+      }
+      .blog {
+        width: 800px;
+        height: 400px;
+      }
+      .team {
+        width: 400px;
+        height: 400px;
+      }
+      .testimonial {
+        width: 200px;
+        height: 200px;
+      }
+      .preview {
+        width: 590px;
+        height: 300px;
+      }
+      .background {
+        width: 1920px;
+        height: 1080px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="placeholders">
+      <!-- Portfolio Images -->
+      <div class="placeholder portfolio">
+        <h2>Portfolio Item 1<br />Creative Agency Website</h2>
+      </div>
+
+      <!-- Blog Images -->
+      <div class="placeholder blog">
+        <h2>Blog Post 1<br />Web Design Trends 2025</h2>
+      </div>
+
+      <!-- Team Images -->
+      <div class="placeholder team">
+        <h2>Team Member<br />Creative Director</h2>
+      </div>
+
+      <!-- Testimonial Images -->
+      <div class="placeholder testimonial">
+        <h2>Client<br />Testimonial</h2>
+      </div>
+
+      <!-- Preview Images -->
+      <div class="placeholder preview">
+        <h2>Ultra Modern Template<br />Main Preview</h2>
+      </div>
+
+      <!-- Background Images -->
+      <div class="placeholder background">
+        <h2>Modern Background<br />Hero Section</h2>
+      </div>
+    </div>
+
+    <script>
+      // Function to capture and download placeholders
+      async function capturePlaceholders() {
+        const placeholders = document.querySelectorAll('.placeholder');
+
+        for (let i = 0; i < placeholders.length; i++) {
+          const element = placeholders[i];
+          const canvas = await html2canvas(element);
+
+          // Convert to blob
+          canvas.toBlob(
+            blob => {
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url;
+              a.download = `placeholder-${i + 1}.jpg`;
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+              URL.revokeObjectURL(url);
+            },
+            'image/jpeg',
+            0.9
+          );
+        }
+      }
+
+      // Run after page load
+      window.onload = capturePlaceholders;
+    </script>
+  </body>
+</html>

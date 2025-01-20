@@ -1,0 +1,48 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Anderson",
+      "position": "CEO, TechStart Inc.",
+      "image": "testimonial-1.jpg",
+      "company_logo": "company-1.png",
+      "rating": 5,
+      "testimonial": "Working with this team was an absolute pleasure. They transformed our vision into a stunning website that perfectly represents our brand. The attention to detail and professional approach exceeded our expectations.",
+      "project": "Corporate Website Redesign",
+      "date": "December 2024"
+    },
+    {
+      "id": 2,
+      "name": "Lisa Zhang",
+      "position": "Founder, EcoLife",
+      "image": "testimonial-2.jpg",
+      "company_logo": "company-2.png",
+      "rating": 5,
+      "testimonial": "Our e-commerce platform needed a complete overhaul, and they delivered beyond our expectations. The new design has significantly improved our conversion rates and customer feedback has been overwhelmingly positive.",
+      "project": "E-commerce Platform",
+      "date": "November 2024"
+    },
+    {
+      "id": 3,
+      "name": "Mark Stevens",
+      "position": "Marketing Director, CreativeHub",
+      "image": "testimonial-3.jpg",
+      "company_logo": "company-3.png",
+      "rating": 5,
+      "testimonial": "The team's creative approach and technical expertise helped us create a unique digital presence. Their responsive design work and attention to user experience has set us apart from our competitors.",
+      "project": "Digital Marketing Platform",
+      "date": "October 2024"
+    },
+    {
+      "id": 4,
+      "name": "Emma Watson",
+      "position": "Product Manager, InnovateTech",
+      "image": "testimonial-4.jpg",
+      "company_logo": "company-4.png",
+      "rating": 5,
+      "testimonial": "From concept to execution, the team demonstrated exceptional skill and professionalism. They were responsive to our needs and delivered a product that perfectly aligned with our vision.",
+      "project": "SaaS Platform Development",
+      "date": "September 2024"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "team_members": [
+    {
+      "id": 1,
+      "name": "Emily Parker",
+      "position": "Creative Director",
+      "image": "team-1.jpg",
+      "bio": "With over 10 years of experience in creative direction and brand strategy, Emily leads our creative team with vision and innovation.",
+      "social": {
+        "linkedin": "https://linkedin.com/in/emilyparker",
+        "twitter": "https://twitter.com/emilyparker",
+        "instagram": "https://instagram.com/emilyparker"
+      },
+      "expertise": [
+        "Brand Strategy",
+        "Creative Direction",
+        "Design Leadership",
+        "Team Management"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "David Chen",
+      "position": "Lead Developer",
+      "image": "team-2.jpg",
+      "bio": "David is a full-stack developer with expertise in modern web technologies and a passion for clean, efficient code.",
+      "social": {
+        "linkedin": "https://linkedin.com/in/davidchen",
+        "github": "https://github.com/davidchen",
+        "twitter": "https://twitter.com/davidchen"
+      },
+      "expertise": [
+        "Full-stack Development",
+        "Architecture Design",
+        "Performance Optimization",
+        "Technical Leadership"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sarah Thompson",
+      "position": "UI/UX Designer",
+      "image": "team-3.jpg",
+      "bio": "Sarah combines user-centered design principles with beautiful aesthetics to create engaging digital experiences.",
+      "social": {
+        "linkedin": "https://linkedin.com/in/sarahthompson",
+        "dribbble": "https://dribbble.com/sarahthompson",
+        "behance": "https://behance.net/sarahthompson"
+      },
+      "expertise": [
+        "User Interface Design",
+        "User Experience",
+        "Prototyping",
+        "Design Systems"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Michael Rodriguez",
+      "position": "Project Manager",
+      "image": "team-4.jpg",
+      "bio": "Michael ensures smooth project delivery through effective communication and agile methodologies.",
+      "social": {
+        "linkedin": "https://linkedin.com/in/michaelrodriguez",
+        "twitter": "https://twitter.com/michaelrodriguez"
+      },
+      "expertise": [
+        "Project Management",
+        "Agile Methodologies",
+        "Client Relations",
+        "Team Coordination"
+      ]
+    }
+  ]
+}
