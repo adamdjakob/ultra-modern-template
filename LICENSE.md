@@ -43,3 +43,32 @@ Copyright (c) 2025 Brain Cascai
 
 For questions about this license, contact:
 support@braincascai.com
+
+---
+
+MIT License
+
+Copyright (c) 2025 Adam Djakob
+
+This is a commercial template. The following license applies to the free demo version available on GitHub:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Demo Version"), to deal
+in the Demo Version without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, and distribute copies of the Demo Version, and to permit persons to whom the Demo Version is
+furnished to do so, subject to the following conditions:
+
+1. Commercial Use Restriction:
+   - The Demo Version may not be used for any commercial purposes
+   - For commercial use, you must purchase the appropriate license from ThemeForest
+
+2. Attribution:
+   - You must give appropriate credit to the original author
+   - Provide a link to the commercial version on ThemeForest
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
